@@ -1,0 +1,55 @@
+Electrolux AC Remote - creditos e licencas
+==========================================
+
+DESIGN DA INTERFACE
+A disposicao dos botoes e os icones/rotulos da tela (pasta assets/) foram COPIADOS e ADAPTADOS do aplicativo:
+
+  * Midea AC Remote - Vladimir Stoliarov (MIT)
+    https://github.com/xakep666/flipperzero-midea-ac-remote
+    que e baseado no
+  * Mitsubishi AC Remote - Anton Chistyakov (MIT)
+    https://github.com/achistyakov/flipperzero-mitsubishi-ac-remote
+    e compartilha o mesmo design do
+  * Hitachi AC Remote - dogtopus (MIT)
+    https://github.com/dogtopus/flipperzero-hitachi-ac-remote
+
+  * Samsung AC Remote - Lia Yoffe / dappermint (MIT)
+    https://github.com/dappermint/samsung-ac-remote-flipper-app
+    (somente a helice do botao FAN, do icone fan_speed_2)
+
+Icones usados SEM alteracao (do Midea AC Remote): on, off, cold, fan, tempup, tempdown (com as versoes "hover"),
+frame_30x39, power_text, mode_text, fan_text e swing_text.
+Icones DERIVADOS por este projeto a partir deles (tools_make_assets.py): fanbtn (moldura do botao FAN, com a helice do
+Samsung AC Remote deslocada para cima para caber as barras de velocidade), swingnt (swing sem o triangulo de "segurar"), lednt (led sem o triangulo), eco e more.
+
+ADAPTACOES: POWER segue o mesmo padrao do original (ar desligado = simbolo de ligar; ligado = anel); MODE alterna
+Normal (floco) e Ventilar (helice); o botao FAN mostra a helice e 4 barras de velocidade embaixo; quadradinho no
+canto do botao = funcao ligada; ECO ocupa o lugar do Turbo e "..." (funcoes: Oscilar, Eco, Ventilar, Display, Mudo,
+Timer) o lugar do Clean.
+
+O que e ORIGINAL deste projeto: a geracao do sinal IR do ar Electrolux (ac_frame.h), a logica do app e o restante do codigo.
+
+AVISOS DE COPYRIGHT E LICENCA (MIT) DOS PROJETOS ACIMA (mesmo texto de licenca MIT nos quatro)
+------------------------------------------------------
+Copyright (c) 2023 Anton Chistyakov
+Copyright (c) 2025 Vladimir Stoliarov
+Copyright (c) 2025 dogtopus
+Copyright (c) 2026 Lia Yoffe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

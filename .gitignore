@@ -1,0 +1,10 @@
+# build artifacts do ufbt
+dist/
+.ufbt/
+*_d.elf
+*.elf.map
+*.impsyms
+*.o
+__pycache__/
+.vscode/
+*.pyc

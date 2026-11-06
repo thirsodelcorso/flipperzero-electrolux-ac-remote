@@ -1,0 +1,26 @@
+Electrolux Black AC Remote - creditos e licencas
+================================================
+
+DESIGN DA INTERFACE (pasta assets/)
+Copiado e ADAPTADO do design dos apps "AC Remote" de Flipper Zero, todos MIT:
+
+  * Midea AC Remote - Vladimir Stoliarov (MIT, (c) 2025)
+    https://github.com/xakep666/flipperzero-midea-ac-remote
+  * Mitsubishi AC Remote - Anton Chistyakov (MIT, (c) 2023)
+    https://github.com/achistyakov/flipperzero-mitsubishi-ac-remote
+  * Hitachi AC Remote - dogtopus (MIT, (c) 2025)
+    https://github.com/dogtopus/flipperzero-hitachi-ac-remote
+  * Samsung AC Remote - Lia Yoffe / dappermint (MIT, (c) 2026)
+    https://github.com/dappermint/samsung-ac-remote-flipper-app
+    (somente a helice do botao FAN, do icone fan_speed_2)
+
+Icones do Midea AC Remote usados sem alteracao: on, off, cold, fan, tempup, tempdown
+(com "hover"), frame_30x39, power_text, mode_text, fan_text, swing_text.
+Icones DERIVADOS neste projeto (tools_make_assets.py, no app branco): fanbtn, swingnt, lednt, more.
+Icone "sono" (lua, Dormir Bem): criado neste projeto a partir da moldura do botao.
+
+O texto das licencas MIT das fontes esta na pasta LICENSES/ na raiz do repositorio.
+
+ORIGINAL deste projeto (licenca MIT): a geracao do sinal IR do ar Electrolux Black
+(ac_frame.h, protocolo Gree + bloco A, checksums, timer 1-24h), a logica do app (electrolux_black.c)
+e os sinais de Ar Indireto / Auto Sense em ac_raw.h (gravacoes IR reais, enviadas por replay).

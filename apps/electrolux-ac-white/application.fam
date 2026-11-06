@@ -1,0 +1,13 @@
+App(
+    appid="electrolux_ac",
+    name="Electrolux AC Remote",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="electrolux_ac_app",
+    requires=["gui", "storage", "notification"],
+    stack_size=4 * 1024,
+    fap_category="Infrared",
+    fap_icon="icon.png",
+    fap_version="1.5",
+    fap_icon_assets="assets",
+    fap_description="Controle do ar-condicionado Electrolux (temperatura, velocidade, oscilar, eco, ventilar, display, mudo, timer).",
+)

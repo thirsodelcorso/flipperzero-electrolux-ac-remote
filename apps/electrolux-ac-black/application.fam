@@ -1,0 +1,13 @@
+App(
+    appid="electrolux_black",
+    name="Electrolux Black AC",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="electrolux_black_app",
+    requires=["gui", "storage", "notification"],
+    stack_size=4 * 1024,
+    fap_category="Infrared",
+    fap_icon="icon.png",
+    fap_icon_assets="assets",
+    fap_version="1.6",
+    fap_description="Controle do ar-condicionado Electrolux Black (OLED): temperatura 16-30, velocidade/turbo, oscilar, dormir bem, ventilar, led, mudo, ar indireto e auto sense.",
+)
